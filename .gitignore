@@ -1,2 +1,3 @@
 .DS_Store
 *_logs
+node_modules
