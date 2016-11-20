@@ -14,7 +14,7 @@ app.listen(port, function() {
 
 app.get('/', function(req,res){
   console.log('base url hit');
-  res.sendFile(path.resolve('public/index.php'));
+  res.sendFile(path.resolve('public/index.html'));
 }); // end base url
 
 app.use(express.static('public'));
