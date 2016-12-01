@@ -1,6 +1,7 @@
 <?php
 $name = "Ben";
 $wp = "This is being run on an apache server with WordPress"
+print $wp
 echo "This is php"
 ?>
 <!DOCTYPE html>
