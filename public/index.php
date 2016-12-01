@@ -1,5 +1,6 @@
 <?php
 $name = "Ben";
+$wp = "This is being run on an apache server with WordPress"
 echo "This is php"
 ?>
 <!DOCTYPE html>
@@ -13,5 +14,6 @@ echo "This is php"
   </head>
   <body>
     <h1>My name is <?php echo $name; ?></h1>
+    <h2><?php echo $wp; ?></h2>
   </body>
 </html>
