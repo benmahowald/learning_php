@@ -20,5 +20,6 @@ $test = array(
   <body>
     <h1>My name is <?php echo $name; ?></h1>
     <h2><?php echo $wp; ?></h2>
+    <p><?php echo $test['name']; ?></p>
   </body>
 </html>
