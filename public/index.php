@@ -2,7 +2,11 @@
 $name = "Ben";
 $wp = "This is being run on an apache server with WordPress"
 print $wp
-echo "This is php"
+echo "This is php";
+$test = array(
+  'name' => 'Ben',
+  'house' => 3445
+);
 ?>
 <!DOCTYPE html>
 <html>
